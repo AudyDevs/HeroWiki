@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		FF29D4B52CD3A23100228653 /* HeroWikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4B42CD3A23100228653 /* HeroWikiApp.swift */; };
-		FF29D4B72CD3A23100228653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4B62CD3A23100228653 /* ContentView.swift */; };
 		FF29D4B92CD3A23800228653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4B82CD3A23800228653 /* Assets.xcassets */; };
 		FF29D4BC2CD3A23800228653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4BB2CD3A23800228653 /* Preview Assets.xcassets */; };
+		FF29D4C92CD3A2E700228653 /* komika_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4C32CD3A2E700228653 /* komika_info.txt */; };
+		FF29D4CA2CD3A2E700228653 /* KomikaAxis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4C42CD3A2E700228653 /* KomikaAxis.ttf */; };
+		FF29D4CB2CD3A2E700228653 /* badaboom_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4C62CD3A2E700228653 /* badaboom_info.txt */; };
+		FF29D4CC2CD3A2E700228653 /* BadaBoomBB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF29D4C72CD3A2E700228653 /* BadaBoomBB.ttf */; };
+		FF29D4D32CD3AA4700228653 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4D22CD3AA4700228653 /* HomeView.swift */; };
+		FF29D4D52CD3CAEC00228653 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4D42CD3CAEC00228653 /* Wrapper.swift */; };
+		FF29D4D72CD3CBC700228653 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4D62CD3CBC700228653 /* SuperHero.swift */; };
+		FF29D4DE2CD3E19900228653 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4DD2CD3E19900228653 /* HomeVM.swift */; };
+		FF29D4E02CD3E3F000228653 /* ApiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4DF2CD3E3F000228653 /* ApiNetwork.swift */; };
+		FF29D4E22CD3E78700228653 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4E12CD3E78700228653 /* ErrorCases.swift */; };
+		FF29D4E62CD3F48700228653 /* SuperHeroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4E52CD3F48700228653 /* SuperHeroItem.swift */; };
+		FF29D4E92CD3FC1700228653 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF29D4E82CD3FC1700228653 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF29D4B12CD3A23000228653 /* HeroWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF29D4B42CD3A23100228653 /* HeroWikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWikiApp.swift; sourceTree = "<group>"; };
-		FF29D4B62CD3A23100228653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF29D4B82CD3A23800228653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF29D4BB2CD3A23800228653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF29D4C32CD3A2E700228653 /* komika_info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = komika_info.txt; sourceTree = "<group>"; };
+		FF29D4C42CD3A2E700228653 /* KomikaAxis.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KomikaAxis.ttf; sourceTree = "<group>"; };
+		FF29D4C62CD3A2E700228653 /* badaboom_info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badaboom_info.txt; sourceTree = "<group>"; };
+		FF29D4C72CD3A2E700228653 /* BadaBoomBB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BadaBoomBB.ttf; sourceTree = "<group>"; };
+		FF29D4CD2CD3A32800228653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF29D4D22CD3AA4700228653 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF29D4D42CD3CAEC00228653 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		FF29D4D62CD3CBC700228653 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		FF29D4DD2CD3E19900228653 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		FF29D4DF2CD3E3F000228653 /* ApiNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetwork.swift; sourceTree = "<group>"; };
+		FF29D4E12CD3E78700228653 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		FF29D4E52CD3F48700228653 /* SuperHeroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF29D4E92CD3FC1700228653 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +74,11 @@
 		FF29D4B32CD3A23000228653 /* HeroWiki */ = {
 			isa = PBXGroup;
 			children = (
+				FF29D4D82CD3CC5800228653 /* Network */,
+				FF29D4C22CD3A2A600228653 /* Fonts */,
+				FF29D4CE2CD3A9BB00228653 /* Home */,
+				FF29D4CD2CD3A32800228653 /* Info.plist */,
 				FF29D4B42CD3A23100228653 /* HeroWikiApp.swift */,
-				FF29D4B62CD3A23100228653 /* ContentView.swift */,
 				FF29D4B82CD3A23800228653 /* Assets.xcassets */,
 				FF29D4BA2CD3A23800228653 /* Preview Content */,
 			);
@@ -65,6 +91,78 @@
 				FF29D4BB2CD3A23800228653 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF29D4C22CD3A2A600228653 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4C82CD3A2E700228653 /* badaboom */,
+				FF29D4C52CD3A2E700228653 /* komika */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FF29D4C52CD3A2E700228653 /* komika */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4C32CD3A2E700228653 /* komika_info.txt */,
+				FF29D4C42CD3A2E700228653 /* KomikaAxis.ttf */,
+			);
+			path = komika;
+			sourceTree = "<group>";
+		};
+		FF29D4C82CD3A2E700228653 /* badaboom */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4C62CD3A2E700228653 /* badaboom_info.txt */,
+				FF29D4C72CD3A2E700228653 /* BadaBoomBB.ttf */,
+			);
+			path = badaboom;
+			sourceTree = "<group>";
+		};
+		FF29D4CE2CD3A9BB00228653 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4D12CD3A9D200228653 /* Model */,
+				FF29D4CF2CD3A9C500228653 /* View */,
+				FF29D4D02CD3A9CB00228653 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF29D4CF2CD3A9C500228653 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4D22CD3AA4700228653 /* HomeView.swift */,
+				FF29D4E52CD3F48700228653 /* SuperHeroItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF29D4D02CD3A9CB00228653 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4DD2CD3E19900228653 /* HomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF29D4D12CD3A9D200228653 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4D42CD3CAEC00228653 /* Wrapper.swift */,
+				FF29D4D62CD3CBC700228653 /* SuperHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF29D4D82CD3CC5800228653 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF29D4DF2CD3E3F000228653 /* ApiNetwork.swift */,
+				FF29D4E12CD3E78700228653 /* ErrorCases.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,9 @@
 			dependencies = (
 			);
 			name = HeroWiki;
+			packageProductDependencies = (
+				FF29D4E82CD3FC1700228653 /* SDWebImageSwiftUI */,
+			);
 			productName = HeroWiki;
 			productReference = FF29D4B12CD3A23000228653 /* HeroWiki.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +212,9 @@
 				Base,
 			);
 			mainGroup = FF29D4A82CD3A23000228653;
+			packageReferences = (
+				FF29D4E72CD3FC1600228653 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = FF29D4B22CD3A23000228653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +229,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF29D4C92CD3A2E700228653 /* komika_info.txt in Resources */,
 				FF29D4BC2CD3A23800228653 /* Preview Assets.xcassets in Resources */,
+				FF29D4CA2CD3A2E700228653 /* KomikaAxis.ttf in Resources */,
+				FF29D4CB2CD3A2E700228653 /* badaboom_info.txt in Resources */,
 				FF29D4B92CD3A23800228653 /* Assets.xcassets in Resources */,
+				FF29D4CC2CD3A2E700228653 /* BadaBoomBB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF29D4B72CD3A23100228653 /* ContentView.swift in Sources */,
+				FF29D4D32CD3AA4700228653 /* HomeView.swift in Sources */,
+				FF29D4E22CD3E78700228653 /* ErrorCases.swift in Sources */,
+				FF29D4E62CD3F48700228653 /* SuperHeroItem.swift in Sources */,
 				FF29D4B52CD3A23100228653 /* HeroWikiApp.swift in Sources */,
+				FF29D4D52CD3CAEC00228653 /* Wrapper.swift in Sources */,
+				FF29D4DE2CD3E19900228653 /* HomeVM.swift in Sources */,
+				FF29D4D72CD3CBC700228653 /* SuperHero.swift in Sources */,
+				FF29D4E02CD3E3F000228653 /* ApiNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +388,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeroWiki/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroWiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +417,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeroWiki/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroWiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +458,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF29D4E72CD3FC1600228653 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF29D4E82CD3FC1700228653 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF29D4E72CD3FC1600228653 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF29D4A92CD3A23000228653 /* Project object */;
 }
