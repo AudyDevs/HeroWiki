@@ -29,7 +29,18 @@
 		FF7BAEAA2CD641DC002B592C /* TitleFrameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEA92CD641DC002B592C /* TitleFrameDetail.swift */; };
 		FF7BAEAC2CD641FE002B592C /* TitleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEAB2CD641FE002B592C /* TitleDetail.swift */; };
 		FF7BAEAE2CD64214002B592C /* PowerstatsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEAD2CD64214002B592C /* PowerstatsField.swift */; };
+		FF7BAEB62CD67148002B592C /* HeroWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEB52CD67148002B592C /* HeroWikiTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7BAEB72CD67149002B592C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF29D4A92CD3A23000228653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29D4B02CD3A23000228653;
+			remoteInfo = HeroWiki;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FF0BF9962CD44A8D007BD0EB /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
@@ -55,6 +66,8 @@
 		FF7BAEA92CD641DC002B592C /* TitleFrameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleFrameDetail.swift; sourceTree = "<group>"; };
 		FF7BAEAB2CD641FE002B592C /* TitleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetail.swift; sourceTree = "<group>"; };
 		FF7BAEAD2CD64214002B592C /* PowerstatsField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerstatsField.swift; sourceTree = "<group>"; };
+		FF7BAEB32CD67148002B592C /* HeroWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7BAEB52CD67148002B592C /* HeroWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWikiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF29D4E92CD3FC1700228653 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7BAEB02CD67148002B592C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				FF29D4B32CD3A23000228653 /* HeroWiki */,
+				FF7BAEB42CD67148002B592C /* HeroWikiTests */,
 				FF29D4B22CD3A23000228653 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				FF29D4B12CD3A23000228653 /* HeroWiki.app */,
+				FF7BAEB32CD67148002B592C /* HeroWikiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +232,14 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		FF7BAEB42CD67148002B592C /* HeroWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BAEB52CD67148002B592C /* HeroWikiTests.swift */,
+			);
+			path = HeroWikiTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +263,24 @@
 			productReference = FF29D4B12CD3A23000228653 /* HeroWiki.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FF7BAEB22CD67148002B592C /* HeroWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7BAEB92CD67149002B592C /* Build configuration list for PBXNativeTarget "HeroWikiTests" */;
+			buildPhases = (
+				FF7BAEAF2CD67148002B592C /* Sources */,
+				FF7BAEB02CD67148002B592C /* Frameworks */,
+				FF7BAEB12CD67148002B592C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7BAEB82CD67149002B592C /* PBXTargetDependency */,
+			);
+			name = HeroWikiTests;
+			productName = HeroWikiTests;
+			productReference = FF7BAEB32CD67148002B592C /* HeroWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,6 +293,10 @@
 				TargetAttributes = {
 					FF29D4B02CD3A23000228653 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					FF7BAEB22CD67148002B592C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FF29D4B02CD3A23000228653;
 					};
 				};
 			};
@@ -265,6 +317,7 @@
 			projectRoot = "";
 			targets = (
 				FF29D4B02CD3A23000228653 /* HeroWiki */,
+				FF7BAEB22CD67148002B592C /* HeroWikiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,6 +333,13 @@
 				FF29D4CB2CD3A2E700228653 /* badaboom_info.txt in Resources */,
 				FF29D4B92CD3A23800228653 /* Assets.xcassets in Resources */,
 				FF29D4CC2CD3A2E700228653 /* BadaBoomBB.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7BAEB12CD67148002B592C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +368,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF7BAEAF2CD67148002B592C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7BAEB62CD67148002B592C /* HeroWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7BAEB82CD67149002B592C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29D4B02CD3A23000228653 /* HeroWiki */;
+			targetProxy = FF7BAEB72CD67149002B592C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FF29D4BD2CD3A23800228653 /* Debug */ = {
@@ -488,6 +564,40 @@
 			};
 			name = Release;
 		};
+		FF7BAEBA2CD67149002B592C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audydev.HeroWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroWiki";
+			};
+			name = Debug;
+		};
+		FF7BAEBB2CD67149002B592C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audydev.HeroWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroWiki";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +615,15 @@
 			buildConfigurations = (
 				FF29D4C02CD3A23800228653 /* Debug */,
 				FF29D4C12CD3A23800228653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7BAEB92CD67149002B592C /* Build configuration list for PBXNativeTarget "HeroWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7BAEBA2CD67149002B592C /* Debug */,
+				FF7BAEBB2CD67149002B592C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
