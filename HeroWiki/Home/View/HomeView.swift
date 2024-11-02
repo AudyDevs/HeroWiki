@@ -47,7 +47,7 @@ struct HomeView: View {
                 List(viewModel.superheroes?.results ?? []){ superhero in
                     ZStack{
                         SuperHeroItem(superhero: superhero)
-                        NavigationLink(destination: {}) {EmptyView()}.opacity(0)
+                        NavigationLink(destination: DetailView(idHero: superhero.id)) {EmptyView()}.opacity(0)
                     }.listRowBackground(Color.backgroundApp)
                 }.listStyle(.plain)
                     .background(.backgroundApp)
