@@ -24,9 +24,9 @@
 		FF29D4E22CD3E78700228653 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4E12CD3E78700228653 /* ErrorCases.swift */; };
 		FF29D4E62CD3F48700228653 /* SuperHeroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29D4E52CD3F48700228653 /* SuperHeroItem.swift */; };
 		FF29D4E92CD3FC1700228653 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF29D4E82CD3FC1700228653 /* SDWebImageSwiftUI */; };
-		FF5189C82CEE480F009D7A91 /* HomeVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5189C72CEE480F009D7A91 /* HomeVMTests.swift */; };
-		FF5189CA2CEE4824009D7A91 /* DetailVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5189C92CEE4824009D7A91 /* DetailVMTests.swift */; };
 		FF5189CC2CEE5082009D7A91 /* ApiNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5189CB2CEE5082009D7A91 /* ApiNetworkTests.swift */; };
+		FF5189D32CEE556D009D7A91 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5189D22CEE556D009D7A91 /* HomeViewModelTests.swift */; };
+		FF5189D52CEE5588009D7A91 /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5189D42CEE5588009D7A91 /* DetailViewModelTests.swift */; };
 		FF7BAEA62CD6414A002B592C /* FrameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEA52CD64149002B592C /* FrameDetail.swift */; };
 		FF7BAEA82CD64192002B592C /* ItemFrameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEA72CD64192002B592C /* ItemFrameDetail.swift */; };
 		FF7BAEAA2CD641DC002B592C /* TitleFrameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BAEA92CD641DC002B592C /* TitleFrameDetail.swift */; };
@@ -63,9 +63,9 @@
 		FF29D4DF2CD3E3F000228653 /* ApiNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetwork.swift; sourceTree = "<group>"; };
 		FF29D4E12CD3E78700228653 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
 		FF29D4E52CD3F48700228653 /* SuperHeroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItem.swift; sourceTree = "<group>"; };
-		FF5189C72CEE480F009D7A91 /* HomeVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVMTests.swift; path = ../../../HomeVMTests.swift; sourceTree = "<group>"; };
-		FF5189C92CEE4824009D7A91 /* DetailVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVMTests.swift; sourceTree = "<group>"; };
 		FF5189CB2CEE5082009D7A91 /* ApiNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetworkTests.swift; sourceTree = "<group>"; };
+		FF5189D22CEE556D009D7A91 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		FF5189D42CEE5588009D7A91 /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
 		FF7BAEA52CD64149002B592C /* FrameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetail.swift; sourceTree = "<group>"; };
 		FF7BAEA72CD64192002B592C /* ItemFrameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFrameDetail.swift; sourceTree = "<group>"; };
 		FF7BAEA92CD641DC002B592C /* TitleFrameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleFrameDetail.swift; sourceTree = "<group>"; };
@@ -239,9 +239,9 @@
 		FF7BAEB42CD67148002B592C /* HeroWikiTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF5189C72CEE480F009D7A91 /* HomeVMTests.swift */,
-				FF5189C92CEE4824009D7A91 /* DetailVMTests.swift */,
 				FF5189CB2CEE5082009D7A91 /* ApiNetworkTests.swift */,
+				FF5189D22CEE556D009D7A91 /* HomeViewModelTests.swift */,
+				FF5189D42CEE5588009D7A91 /* DetailViewModelTests.swift */,
 			);
 			path = HeroWikiTests;
 			sourceTree = "<group>";
@@ -378,9 +378,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5189C82CEE480F009D7A91 /* HomeVMTests.swift in Sources */,
-				FF5189CA2CEE4824009D7A91 /* DetailVMTests.swift in Sources */,
 				FF5189CC2CEE5082009D7A91 /* ApiNetworkTests.swift in Sources */,
+				FF5189D32CEE556D009D7A91 /* HomeViewModelTests.swift in Sources */,
+				FF5189D52CEE5588009D7A91 /* DetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
